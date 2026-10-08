@@ -1,0 +1,231 @@
+[
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "description": "From browser scripting to full-stack development with Node.js.",
+    "levels": {
+      "iniciante": {
+        "duration": "4 weeks",
+        "modules": [
+          "Variables, types and operators",
+          "Control flow (if/else, loops)",
+          "Functions and scope",
+          "Arrays and Objects",
+          "DOM manipulation basics"
+        ]
+      },
+      "intermediario": {
+        "duration": "6 weeks",
+        "modules": [
+          "ES6+ features (arrow functions, destructuring, spread)",
+          "Promises and async/await",
+          "Modules (import/export)",
+          "Error handling",
+          "Fetch API and REST consumption",
+          "Unit testing with Jest"
+        ]
+      },
+      "avancado": {
+        "duration": "8 weeks",
+        "modules": [
+          "Design patterns (Factory, Observer, Strategy)",
+          "Performance and Web Workers",
+          "TypeScript fundamentals",
+          "Bundlers (Vite / Webpack)",
+          "Node.js streams and events",
+          "Security best-practices (OWASP top-10)",
+          "Micro-frontends architecture",
+          "CI/CD pipelines for JS projects"
+        ]
+      }
+    },
+    "challenges": {
+      "iniciante": "Create a function that reverses a string without using the built-in reverse() method.",
+      "intermediario": "Build a promise-based function that fetches a list of users from a public API and returns only those whose names start with the letter 'A'.",
+      "avancado": "Implement a debounce utility using closures and demonstrate its use in an event listener scenario. Include unit tests."
+    }
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "description": "General-purpose language beloved for scripting, data science and AI.",
+    "levels": {
+      "iniciante": {
+        "duration": "4 weeks",
+        "modules": [
+          "Syntax and data types",
+          "Control flow and comprehensions",
+          "Functions and lambdas",
+          "Lists, tuples, dicts and sets",
+          "File I/O basics"
+        ]
+      },
+      "intermediario": {
+        "duration": "6 weeks",
+        "modules": [
+          "Object-Oriented Programming",
+          "Decorators and generators",
+          "Virtual environments and pip",
+          "Exception handling",
+          "Working with APIs (requests library)",
+          "Unit testing with pytest"
+        ]
+      },
+      "avancado": {
+        "duration": "8 weeks",
+        "modules": [
+          "Concurrency (threading, asyncio)",
+          "Metaclasses and descriptors",
+          "C extensions with ctypes",
+          "Data analysis with pandas & numpy",
+          "Machine learning pipeline with scikit-learn",
+          "FastAPI REST services",
+          "Docker containerisation for Python apps",
+          "Performance profiling and optimisation"
+        ]
+      }
+    },
+    "challenges": {
+      "iniciante": "Write a Python function that counts the frequency of each word in a given sentence and returns a dictionary sorted by frequency.",
+      "intermediario": "Create a class `Stack` that uses a list internally and supports push, pop, peek and is_empty operations. Write pytest tests for each method.",
+      "avancado": "Implement an asynchronous web scraper using asyncio and aiohttp that fetches titles from 10 URLs concurrently and saves results to a JSON file."
+    }
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "description": "Component-based UI library for building modern web interfaces.",
+    "levels": {
+      "iniciante": {
+        "duration": "5 weeks",
+        "modules": [
+          "JSX and components",
+          "Props and state",
+          "Event handling",
+          "Conditional rendering",
+          "Lists and keys"
+        ]
+      },
+      "intermediario": {
+        "duration": "6 weeks",
+        "modules": [
+          "React Hooks (useState, useEffect, useContext)",
+          "Custom hooks",
+          "React Router v6",
+          "Form management with React Hook Form",
+          "API calls and loading states",
+          "Testing with React Testing Library"
+        ]
+      },
+      "avancado": {
+        "duration": "8 weeks",
+        "modules": [
+          "Advanced hooks (useReducer, useMemo, useCallback, useRef)",
+          "Context API vs Zustand vs Redux Toolkit",
+          "Server components (Next.js App Router)",
+          "Performance patterns (code-splitting, lazy loading)",
+          "Accessibility (ARIA, focus management)",
+          "End-to-end testing with Playwright",
+          "Micro-frontend shell with Module Federation",
+          "Design systems with Storybook"
+        ]
+      }
+    },
+    "challenges": {
+      "iniciante": "Build a simple counter component that increments, decrements and resets, displaying the current value.",
+      "intermediario": "Create a custom useFetch hook that accepts a URL, manages loading/error/data states and returns them to the consuming component.",
+      "avancado": "Architect a paginated list feature using React Query (TanStack Query) with infinite scroll, skeleton loaders and error boundaries."
+    }
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "description": "Server-side JavaScript runtime built on Chrome's V8 engine.",
+    "levels": {
+      "iniciante": {
+        "duration": "4 weeks",
+        "modules": [
+          "Node.js architecture and event loop",
+          "Core modules (fs, path, http)",
+          "npm and package management",
+          "Building a simple HTTP server",
+          "Reading and writing files"
+        ]
+      },
+      "intermediario": {
+        "duration": "6 weeks",
+        "modules": [
+          "Express.js fundamentals",
+          "Middleware and routing",
+          "REST API design",
+          "Database access with Prisma or Mongoose",
+          "Authentication with JWT",
+          "Error handling and logging"
+        ]
+      },
+      "avancado": {
+        "duration": "8 weeks",
+        "modules": [
+          "Streams and backpressure",
+          "Worker threads and clustering",
+          "Microservices with message queues (RabbitMQ)",
+          "GraphQL API with Apollo Server",
+          "Rate limiting and security hardening",
+          "Observability (OpenTelemetry, structured logs)",
+          "Containerisation and Kubernetes basics",
+          "Load testing with k6"
+        ]
+      }
+    },
+    "challenges": {
+      "iniciante": "Create a Node.js script that reads a directory path from command-line arguments and prints the names of all files in that directory.",
+      "intermediario": "Build an Express REST API with CRUD endpoints for a 'tasks' resource, storing data in-memory (no database required). Include input validation.",
+      "avancado": "Design and implement a rate-limiter middleware using the sliding-window algorithm backed by an in-memory store, with unit tests covering edge cases."
+    }
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "description": "Typed superset of JavaScript for large-scale application development.",
+    "levels": {
+      "iniciante": {
+        "duration": "3 weeks",
+        "modules": [
+          "Type annotations and inference",
+          "Interfaces and type aliases",
+          "Union and intersection types",
+          "Functions with typed parameters",
+          "Enums and tuples"
+        ]
+      },
+      "intermediario": {
+        "duration": "5 weeks",
+        "modules": [
+          "Generics",
+          "Utility types (Partial, Required, Pick, Omit, Record)",
+          "Declaration files (.d.ts)",
+          "tsconfig.json deep-dive",
+          "Decorators (experimental)",
+          "Strict mode and null checks"
+        ]
+      },
+      "avancado": {
+        "duration": "7 weeks",
+        "modules": [
+          "Conditional and mapped types",
+          "Template literal types",
+          "Infer keyword and type-level programming",
+          "Module augmentation",
+          "Path aliases and monorepo setup",
+          "Performance: incremental compilation",
+          "Runtime validation (zod / io-ts)"
+        ]
+      }
+    },
+    "challenges": {
+      "iniciante": "Define a TypeScript interface for a `Product` with id, name, price and optional discount. Write a function that applies the discount and returns the final price.",
+      "intermediario": "Create a generic `Repository<T>` class with findById, findAll, save and delete methods, typed so that each method enforces the correct entity shape.",
+      "avancado": "Implement a type-safe event emitter using conditional types and mapped types so that calling emit('click', payload) is only valid when payload matches the declared event map."
+    }
+  }
+]
